@@ -10,21 +10,21 @@ const Header = () => {
 
       {/* Centered: Navigation links */}
       <nav className="flex text-2xl space-x-6">
-        <a href="#about" className="hover:text-green-500 hover:bg-gray-700 px-2 py-1 rounded-md hover:underline hover:underline-offset-4 transition-all">About</a>
-        <a href="#skills" className="hover:text-orange-500 hover:bg-gray-700 px-2 py-1 rounded-md hover:underline hover:underline-offset-4 transition-all">Skills</a>
-        <a href="#projects" className="hover:text-pink-500 hover:bg-gray-700 px-2 py-1 rounded-md hover:underline hover:underline-offset-4 transition-all">Projects</a>
-        <a href="#contact" className="hover:text-sky-500 hover:bg-gray-700 px-2 py-1 rounded-md hover:underline hover:underline-offset-4 transition-all">Contact</a>
+        <a href="#about" className="hover:text-green-500 hover:bg-gray-700 px-1 py-1 rounded-md hover:underline hover:underline-offset-4 transition-all">About</a>
+        <a href="#skills" className="hover:text-orange-500 hover:bg-gray-700 px-1 py-1 rounded-md hover:underline hover:underline-offset-4 transition-all">Skills</a>
+        <a href="#projects" className="hover:text-pink-500 hover:bg-gray-700 px-1 py-1 rounded-md hover:underline hover:underline-offset-4 transition-all">Projects</a>
+        <a href="#contact" className="hover:text-sky-500 hover:bg-gray-700 px-1 py-1 rounded-md hover:underline hover:underline-offset-4 transition-all">Contact</a>
       </nav>
 
       {/* Right side: Social media icons */}
       <div className="flex space-x-6">
-        <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-xl hover:text-gray-400">
+        <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-xl hover:text-gray-400 transform transition duration-200 ease-in-out hover:scale-110">
           <i className="fab fa-github"></i> {/* GitHub Icon */}
         </a>
-        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-xl hover:text-gray-400">
+        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-xl hover:text-gray-400 transform transition duration-200 ease-in-out hover:scale-110">
           <i className="fab fa-linkedin-in"></i> {/* LinkedIn Icon */}
         </a>
-        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-xl hover:text-gray-400">
+        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-xl hover:text-gray-400 transform transition duration-200 ease-in-out hover:scale-110">
           <i className="fab fa-twitter"></i> {/* Twitter Icon */}
         </a>
       </div>

@@ -36,7 +36,7 @@ const About = () => {
 
         <a 
           href="/resume.pdf" 
-          className="bg-gradient-to-r from-purple-500 to-indigo-600 text-white px-6 py-2 rounded-full hover:bg-gradient-to-l hover:from-indigo-600 hover:to-purple-500 text-lg font-semibold transition-all duration-300 ease-in-out transform hover:scale-105 shadow-lg"
+          className=" mt-8 bg-gradient-to-r from-purple-500 to-indigo-600 text-white px-6 py-2 rounded-full hover:bg-gradient-to-l hover:from-indigo-600 hover:to-purple-500 text-lg font-semibold transition-all duration-300 ease-in-out transform hover:scale-110 shadow-lg"
         >
           Download Resume
         </a>
