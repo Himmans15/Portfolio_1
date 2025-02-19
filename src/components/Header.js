@@ -7,7 +7,7 @@ const Header = () => {
       <div className="text-3xl font-bold">
         <img src={logo} alt="Logo" className="w-12 h-12"/>
       </div>
-
+ 
       {/* Centered: Navigation links */}
       <nav className="flex text-2xl space-x-6">
         <a href="#about" className="hover:text-green-500 hover:bg-gray-700 px-1 py-1 rounded-md hover:underline hover:underline-offset-4 transition-all">About</a>
