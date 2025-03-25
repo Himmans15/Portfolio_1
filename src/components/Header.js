@@ -48,7 +48,7 @@ const Header = () => {
       {/* Hamburger Menu Dropdown (for mobile view) */}
       <div
         className={`${
-          menuOpen ? 'flex' : ''
+          menuOpen ? 'flex' : 'hidden'
         } flex-col items-center gap-3 rounded-lg bg-gradient-to-b from-[#a5a7e666] to-[rgb(25,55,107)] p-6 shadow-md absolute top-[60px] left-8 right-21 mt-2 md:hidden`}
       >
         <a href="#about" className="text-xl  hover:border-b-2 hover:border-orange-300 px-2 py-1 rounded-md transition-all">About</a>
