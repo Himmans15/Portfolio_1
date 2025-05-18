@@ -1,17 +1,17 @@
 import React from "react";
 import profile from "../assets/profil.jpg";
-
+import resume from "../assets/resume/Himanshu_bhardwaj_resume.pdf";
 const About = () => {
   return (
     <section
       id="about"
       className="flex items-center my-auto p-10 bg-gray-100 flex-col md:flex-row"
     >
-      <div className="w-full md:w-1/2 p-5 flex justify-center">
+      <div className="w-full md:w-1/2  p-5 flex justify-center">
         <img
           src={profile}
           alt="Profile picture of Himans Bhardwaj"
-          className="rounded-full md:my-11 md:w-80  sm:w-48  object-cover shadow-lg transform transition-all duration-300 ease-in-out hover:scale-110"
+          className="w-32 md:w-48 lg:w-64 h-auto max-w-full rounded-full object-cover shadow-lg transform transition-all duration-300 ease-in-out hover:scale-110"
         />
       </div>
       <div className="w-full md:w-1/2 p-5">
@@ -49,7 +49,9 @@ const About = () => {
 
         <div className="flex items-center mt-8">
           <a
-            href="/resume.pdf"
+            href={resume}
+            target="_blank"
+            rel="noopener noreferrer"
             className="bg-gradient-to-r from-purple-500 to-indigo-600 text-white px-6 py-2 rounded-full hover:bg-gradient-to-l hover:from-indigo-600 hover:to-purple-500 text-lg font-semibold transition-all duration-300 ease-in-out transform hover:scale-110 shadow-lg"
           >
             Download Resume
